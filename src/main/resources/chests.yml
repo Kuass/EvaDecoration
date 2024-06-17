@@ -1,0 +1,27 @@
+chests:
+  hat_chest_b:
+    name: "&fB등급 캔 치장상자"
+    description: ""
+    openPrice: 1000 # 소수점 가능
+    items: # <Type>:<CosmeticId><Chance>
+      # Type: HAT,WALKING_STICK,BAG,BALLOON
+      # Chance: 총 합이 100이 되어야 하며, 소수점 2자리까지 입력 가능
+      - "HAT:hat1:15"
+      - "HAT:hat2:15"
+      - "HAT:hat3:14"
+      - "HAT:hat4:14"
+      - "HAT:hat5:14"
+      - "HAT:hat6:14"
+      - "HAT:hat7:14"
+  hat_chest_a:
+    name: "&fA등급 캔 치장상자"
+    description: ""
+    openPrice: 1000
+    items:
+      - "HAT:hat10:15"
+      - "HAT:hat11:15"
+      - "HAT:hat12:14"
+      - "HAT:hat13:14"
+      - "HAT:hat14:14"
+      - "HAT:hat15:14"
+      - "HAT:hat16:14"

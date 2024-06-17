@@ -1,0 +1,28 @@
+cosmetics:
+  adminBadge:
+    name: "&c어드민용 뱃지"
+    description: "&f어드민용 뱃지"
+    code: "\uf027"
+    position: "prefix" # prefix/suffix
+    possible_disassemble: false                 # 분해 가능 여부
+    disassemble_items: # [NULLABLE] 분해시 나오는 아이템
+      - "fabric-can:2:1"                    # fabric-(can/paid):amount:chance(%) (cm옷감)
+      - "porkchop_b:1:0.1"                 # (mythicmobs_item):amount:chance(%) (customitem)
+      - "porkchop_a:1:0.01"                 # (mythicmobs_item):amount:chance(%) (customitem)
+    name_color: "&#F00000" # [NULLABLE] 이름 색깔, position이 prefix인 경우에만 동작함
+    auto_permission: "*" # [NULLABLE] 자동 획득 권한
+  partnerBadge:
+    name: "&9파트너용 뱃지"
+    description: "&e에바참치 파트너용 뱃지"
+    code: "\ue4e0"
+    position: "prefix"
+    possible_disassemble: false
+    name_color: "&#0300C9"
+    auto_permission: "group.partner"
+  season1Badge:
+    name: "&6에바참치 시즌 1 참가자용 뱃지"
+    description: "&f오래 함께해 주셔서 감사합니다."
+    code: "\uf050"
+    position: "prefix"
+    possible_disassemble: false
+    auto_permission: "group.partner"

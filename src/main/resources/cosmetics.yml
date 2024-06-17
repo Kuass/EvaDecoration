@@ -1,0 +1,26 @@
+cosmetics:
+  hat1:
+    name: "&6testHat"
+    description: "&eThis is a test hat!\n&cIt is a test hat2!"
+    cosmetic_id: "hat1"                 # MagicCosmetic ID
+    cosmetic_type: "HAT"               # MagicCosmetic ID 와 동일한 type 입력 (HAT,WALKING_STICK,BAG,BALLOON 중)
+    cmtag: # nullable
+      # premium[프리미엄 에디션],notrade:(description)[거래 불가능:이유]
+      # limited[리미티드 에디션],season_edition:(description)[시즌 이벤트 에디션:이벤트명]
+      - "premium"
+      - "notrade:사유 서술"
+      - "limited"
+      - "season_edition:2021 크리스마스"
+    possible_color: true                      # 색깔 변경 가능 여부
+    possible_disassemble: true                 # 치장 분해 가능 여부
+    disassemble_items: # nullable
+      - "fabric-can:2:1"                    # fabric-(can/paid):amount:chance(%) (cm옷감)
+      - "porkchop_b:1:0.1"                 # (mythicmobs_item):amount:chance(%) (customitem)
+      - "porkchop_a:1:0.01"                 # (mythicmobs_item):amount:chance(%) (customitem)
+  hat2:
+    name: "&6testHat2"
+    description: "&eThis is a test hat2!"
+    cosmetic_id: "hat2"
+    cosmetic_type: "HAT"
+    possible_color: false
+    possible_disassemble: false

@@ -1,0 +1,5 @@
+mysql:
+  host: 'localhost:3306' # Please include port
+  db: 'database'
+  user: 'user'
+  password: 'password'
